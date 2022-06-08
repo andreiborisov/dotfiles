@@ -1,0 +1,3 @@
+[submodule "home/.hammerspoon/Spoons/DarkMode.spoon"]
+	path = home/.hammerspoon/Spoons/DarkMode.spoon
+	url = git@github.com:malob/DarkMode.spoon.git
