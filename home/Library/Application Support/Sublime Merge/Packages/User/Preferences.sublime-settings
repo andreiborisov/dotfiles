@@ -1,0 +1,8 @@
+{
+	"theme": "auto",
+	"font_face": "FiraCodeNerdFontComplete-Retina",
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"editor_argument_format": "--goto ${file}:${line}:${col}",
+	"editor_path": "/opt/homebrew/bin/code",
+}
