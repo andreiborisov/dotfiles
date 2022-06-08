@@ -5,6 +5,8 @@
   name = Andrei Borisov
 [init]
   defaultBranch = main
+[diff "plist"]
+  textconv = plutil -convert xml1 -o -
 [diff "scpt"]
   binary = true
   textconv = osadecompile
