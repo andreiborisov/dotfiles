@@ -1,0 +1,150 @@
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡ "
+discharging_symbol = "💦 "
+empty_symbol = "💀 "
+
+[buf]
+version_format = "${raw}"
+
+[c]
+version_format = "${raw}"
+
+[cmake]
+version_format = "${raw}"
+
+[cobol]
+version_format = "${raw}"
+
+[crystal]
+version_format = "${raw}"
+
+[dart]
+version_format = "${raw}"
+
+[deno]
+version_format = "${raw}"
+
+[dotnet]
+version_format = "${raw}"
+
+[elixir]
+version_format = "${raw}"
+
+[elm]
+version_format = "${raw}"
+
+[erlang]
+version_format = "${raw}"
+
+[git_branch]
+format = "$symbol$branch( ☁️  $remote_branch) "
+ignore_branches = ["main", "master"]
+symbol = "👨‍💻 "
+
+[git_status]
+conflicted = "🏳 "
+ahead = "☝️ "
+behind = "👇 "
+diverged = "🙅 "
+up_to_date = "🙌 "
+untracked = "🤷 "
+stashed = "📦 "
+modified = "✍️  "
+staged = "👏 "
+renamed = "💅 "
+deleted = "🔥 "
+format = "[$all_status$ahead_behind]($style) "
+
+[golang]
+version_format = "${raw}"
+
+[helm]
+version_format = "${raw}"
+
+[hostname]
+# ssh_symbol = "🌏 "
+
+[java]
+version_format = "${raw}"
+
+[jobs]
+symbol = "✨ "
+
+[julia]
+version_format = "${raw}"
+
+[kotlin]
+version_format = "${raw}"
+
+[kubernetes]
+symbol = "🛳️ "
+
+[lua]
+version_format = "${raw}"
+
+[hg_branch]
+format = "$branch"
+
+[nim]
+version_format = "${raw}"
+
+[nodejs]
+symbol = "🏄 "
+version_format = "${raw}"
+
+[ocaml]
+version_format = "${raw}"
+
+[package]
+version_format = "${raw}"
+
+[perl]
+version_format = "${raw}"
+
+[php]
+version_format = "${raw}"
+
+[pulumi]
+version_format = "${raw}"
+
+[purescript]
+version_format = "${raw}"
+
+[python]
+version_format = "${raw}"
+
+[rlang]
+version_format = "${raw}"
+
+[red]
+version_format = "${raw}"
+
+[ruby]
+version_format = "${raw}"
+
+[rust]
+version_format = "${raw}"
+
+[scala]
+symbol = "🌟 "
+version_format = "${raw}"
+
+[sudo]
+symbol = "🧙‍♂️ "
+
+[swift]
+version_format = "${raw}"
+
+[terraform]
+version_format = "${raw}"
+
+[vagrant]
+symbol = "🧑‍🔧 "
+version_format = "${raw}"
+
+[vlang]
+version_format = "${raw}"
+
+[zig]
+version_format = "${raw}"
