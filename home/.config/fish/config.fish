@@ -1,3 +1,6 @@
+# Dart
+set --global --export PUB_CACHE $HOME/.pub_cache
+
 # Go
 set --global --export GOPATH $HOME/go
 fish_add_path --global $GOPATH/bin
