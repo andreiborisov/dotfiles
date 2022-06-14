@@ -1,10 +1,16 @@
+[commit]
+  gpgsign = true
 [core]
   editor = code --wait
+[credential]
+  helper = osxkeychain
 [diff "plist"]
   textconv = plutil -convert xml1 -o -
 [diff "scpt"]
   binary = true
   textconv = osadecompile
+[gpg]
+  program = /usr/local/bin/gpg
 [init]
   defaultBranch = main
 [merge]
@@ -15,3 +21,4 @@
 [user]
   email = andrei@borisov.dev
   name = Andrei Borisov
+  signingkey = C3BFA049
