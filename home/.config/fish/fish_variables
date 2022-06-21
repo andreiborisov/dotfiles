@@ -22,6 +22,7 @@ SETUVAR --export EXA_L_OPTIONS:\x2d\x2dall
 SETUVAR --export EXA_STANDARD_OPTIONS:\x2d\x2dgroup\x1e\x2d\x2dheader\x1e\x2d\x2dgroup\x2ddirectories\x2dfirst
 SETUVAR --export HOMEBREW_NO_ANALYTICS:true
 SETUVAR --export HOMEBREW_NO_ENV_HINTS:true
+SETUVAR async_prompt_functions:fish_prompt
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:\x2d\x2dbold
